@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 0.5rem 1rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.header a {
+  color: #1d2b98;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.header-title {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-panel {
+  display: flex;
+}
+
+.search-panel__filters {
+  flex: 1;
+}
+
+.search-panel__results {
+  flex: 3;
+}
+
+.searchbox {
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.hit-bid-id {
+  display: inline-block;
+  color: gray;
+  vertical-align: middle;
+}
+
+.hit-name {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 20px;
+  color: #fd6659;
+  min-height: 80px;
+  vertical-align: middle;
+}
+
+.hit-prescriptions {
+  text-transform: capitalize;
+}
+
+.carrier_and_geo {
+  display: inline-block;
+  font-size: 14px;
+  color: gray;
+  min-height: 50px;
+  vertical-align: middle;
+}
+
+.oop_deductible_and_prescriptions {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  color: orange;
+  min-height: 80px;
+  vertical-align: middle;
+}
